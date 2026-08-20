@@ -1,0 +1,29 @@
+package net.java.banking.app.entity;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.Setter;
+import jakarta.persistence.Table;
+
+
+@Entity
+@Table(name="accounts")
+@AllArgsConstructor
+@Setter
+@Getter
+
+public class Account {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private long id;
+
+    @Column(name = "Account_Holder_name")
+    private String accountHolderName;
+    private double balance;
+
+
+}
