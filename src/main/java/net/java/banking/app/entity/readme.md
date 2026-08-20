@@ -46,14 +46,5 @@ I built this project from the ground up using industry-standard tools that real 
 5. **Added proper error handling** — instead of letting the system crash or return confusing errors, I built a dedicated system to catch problems (like withdrawing more money than is available) and return clear, professional error messages
 6. **Refined the code** — revisited my early work and improved it using more modern coding practices as I learned them, rather than leaving it as first-draft code
 
----
 
-## 🎯 What This Project Demonstrates
 
-- Ability to design and build a complete backend system from scratch, not just follow a tutorial passively
-- Understanding of how real applications store and manage sensitive data (like money) safely
-- Practice with professional development tools used in the tech industry
-- Attention to detail — including thinking about what happens when things go *wrong*, not just when they go right
-- Comfort working through real technical setup challenges independently (environment setup, tooling, debugging)
-
----
