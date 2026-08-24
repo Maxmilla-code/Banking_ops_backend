@@ -1,7 +1,7 @@
 package net.java.banking.app.service;
-import net.java.banking.app.dto.banking.dto;
+import net.java.banking.app.dto.banking.AccountDto;
 
 public interface AccountService {
-    dto CreateAccount(dto accountdto);
+    AccountDto createAccount(AccountDto accountdto);
 
 }
