@@ -6,6 +6,8 @@ public interface AccountService {
     AccountDto getAccountById(Long id);
     //deposit amt implementation
     AccountDto deposit(Long id, double amount);
-    
+    //withdraw amt implementation
+    AccountDto withdraw(Long id, double amount);
+
 
 }
