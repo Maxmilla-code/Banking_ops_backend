@@ -1,4 +1,5 @@
 package net.java.banking.app.dto.banking;
+/* 
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -13,4 +14,8 @@ public class AccountDto {
     private double balance;
 
 
+}
+*/
+
+public record AccountDto(Long id, String accountHolderName, double balance) {
 }
