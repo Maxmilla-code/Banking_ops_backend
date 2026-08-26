@@ -12,6 +12,8 @@ public interface AccountService {
     AccountDto withdraw(Long id, double amount);
      // lists all the accounts in the database
     List<AccountDto> getAllAccounts();
+    //deleting all the accounts
+    void deleteAccount(Long id);
 
 
 }
