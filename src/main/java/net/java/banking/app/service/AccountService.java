@@ -4,5 +4,8 @@ import net.java.banking.app.dto.banking.AccountDto;
 public interface AccountService {
     AccountDto createAccount(AccountDto accountDto);
     AccountDto getAccountById(Long id);
+    //deposit amt implementation
+    AccountDto deposit(Long id, double amount);
+    
 
 }
